@@ -1,0 +1,2275 @@
+trained
+
+--------------------------- NEW RUN ---------------------------
+move_count= 148  labir_max_score= -6  fault_moves= 2  total_score= -9.94666666667
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -6  fault_moves= 0  total_score= -10.0
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -20  fault_moves= 1  total_score= -23.9733333333
+--------------------------- NEW RUN ---------------------------
+move_count= 147  labir_max_score= -5  fault_moves= 3  total_score= -8.92
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -44  fault_moves= 0  total_score= -48.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 146  labir_max_score= -8  fault_moves= 4  total_score= -11.8933333333
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -44  fault_moves= 1  total_score= -47.9733333333
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -8  fault_moves= 0  total_score= -12.0
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -5  fault_moves= 1  total_score= -8.97333333333
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -20  fault_moves= 0  total_score= -24.0
+--------------------------- NEW RUN ---------------------------
+move_count= 148  labir_max_score= -20  fault_moves= 2  total_score= -23.9466666667
+--------------------------- NEW RUN ---------------------------
+move_count= 147  labir_max_score= -17  fault_moves= 3  total_score= -20.92
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -14  fault_moves= 0  total_score= -18.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 148  labir_max_score= -3  fault_moves= 2  total_score= -6.94666666667
+--------------------------- NEW RUN ---------------------------
+move_count= 148  labir_max_score= -20  fault_moves= 2  total_score= -23.9466666667
+--------------------------- NEW RUN ---------------------------
+move_count= 148  labir_max_score= -6  fault_moves= 2  total_score= -9.94666666667
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -10  fault_moves= 0  total_score= -14.0
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -5  fault_moves= 1  total_score= -8.97333333333
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -44  fault_moves= 1  total_score= -47.9733333333
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -15  fault_moves= 1  total_score= -18.9733333333
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -44  fault_moves= 1  total_score= -47.9733333333
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -5  fault_moves= 1  total_score= -8.97333333333
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -5  fault_moves= 1  total_score= -8.97333333333
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -5  fault_moves= 1  total_score= -8.97333333333
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -14  fault_moves= 0  total_score= -18.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -5  fault_moves= 1  total_score= -8.97333333333
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -3  fault_moves= 1  total_score= -6.97333333333
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -5  fault_moves= 1  total_score= -8.97333333333
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 149  labir_max_score= -5  fault_moves= 1  total_score= -8.97333333333
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -3  fault_moves= 0  total_score= -7.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+--------------------------- NEW RUN ---------------------------
+move_count= 150  labir_max_score= -4  fault_moves= 0  total_score= -8.0
+>>> 
+>>> 
+>>> 
+================= RESTART: C:\NN\labirint\traveller_test.py =================
+--------------------------- NEW RUN ---------------------------
+move_count= 160  labir_max_score= -3  fault_moves= 0  total_score= -7.0
+>>> 
+================= RESTART: C:\NN\labirint\traveller_test.py =================
+--------------------------- NEW RUN ---------------------------
+
+Increased MAX_MOVES
+
+finished!
+move_count= 207  labir_max_score= -1  fault_moves= 2  total_score= -4.18461538462
+>>> 
+
+
+    def __init__(self):
+        """ INIT PARAMS"""
+        self.RUN_COUNT = 1000
+        self.MAX_MOVES = 150
+        self.PENALTY_FOR_FAULT_MOVE = 0.0
+        self.PENALTY_FOR_ONE_MOVE = 4.0 / self.MAX_MOVES
+        self.BONUS_FOR_FINISHED = 1.5
+
+        
+        total_score = labir_max_score - fault_moves * self.PENALTY_FOR_FAULT_MOVE - self.move_count * self.PENALTY_FOR_ONE_MOVE
+
+        
+        
+        
+        
+        
+        
+        
+        
+        --------------------
+        
+        --------------------------- NEW RUN ---------------------------
+cur_run =  1850  move_count= 247  labir_max_score= -34  fault_moves= 3  marks_failed= 133  total_score= -372.2
+--------------------------- NEW RUN ---------------------------
+cur_run =  1851  move_count= 247  labir_max_score= -29  fault_moves= 3  marks_failed= 115  total_score= -334.8
+--------------------------- NEW RUN ---------------------------
+cur_run =  1852  move_count= 227  labir_max_score= -60  fault_moves= 23  marks_failed= 175  total_score= -465.8
+--------------------------- NEW RUN ---------------------------
+cur_run =  1853  move_count= 246  labir_max_score= -29  fault_moves= 4  marks_failed= 103  total_score= -312.8
+--------------------------- NEW RUN ---------------------------
+cur_run =  1854  move_count= 243  labir_max_score= -35  fault_moves= 7  marks_failed= 131  total_score= -368.0
+--------------------------- NEW RUN ---------------------------
+cur_run =  1855  move_count= 241  labir_max_score= -29  fault_moves= 9  marks_failed= 111  total_score= -325.2
+--------------------------- NEW RUN ---------------------------
+cur_run =  1856  move_count= 246  labir_max_score= -29  fault_moves= 4  marks_failed= 100  total_score= -307.4
+--------------------------- NEW RUN ---------------------------
+Traceback (most recent call last):
+  File "C:\NN\labirint\traveller_test.py", line 4, in <module>
+    tr.move()
+  File "C:\NN\labirint\traveller.py", line 59, in move
+    dir_nn = self.nnmodel.get_nextTurn(int(e), int(w), int(s), int(n), int(mark_e), int(mark_w), int(mark_s), int(mark_n), int(mark_here))
+  File "C:\NN\labirint\nnmodel.py", line 46, in get_nextTurn
+    predicted_res = self.labDB.predict_direction(value_e, value_w, value_s, value_n, mark_e, mark_w, mark_s, mark_n, mark_here)
+  File "C:\NN\labirint\coredb.py", line 134, in predict_direction
+    {"w":value_w, "s":value_s, "e":value_e, "n":value_n, "mw":mark_w, "ms":mark_s, "me":mark_e, "mn":mark_n })
+KeyboardInterrupt    def __init__(self):
+        """ INIT PARAMS"""
+        self.RUN_COUNT = 2000
+        self.MAX_MOVES = 250
+        self.PENALTY_FOR_FAULT_MOVE = 0.0
+        self.PENALTY_FOR_ONE_MOVE = 100.0 / self.MAX_MOVES
+        self.BONUS_FOR_FINISHED = 1.5
+        self.PENALTY_FOR_MORE_THAN_1_MARK = 450.0 / self.MAX_MOVES
+        
+        """ Private """
+        self.move_count = 0
+        self.nnmodel = nm.NNModel()
+
+    def move(self):
+        gamma_inc = 1.0 / self.RUN_COUNT / 2.0 # increase gamma coeff on each run
+        gamma = 0.501 # coefficient ratio new moves / predicted moves
+
+>>> 
+================= RESTART: C:\NN\labirint\traveller_test.py =================
+--------------------------- NEW RUN ---------------------------
+cur_run =  0  move_count= 144  labir_max_score= -59  fault_moves= 106  marks_failed= 86  total_score= -271.4
+>>> 
+
+
+
+
+
+------------------------------------------------
+        self.RUN_COUNT = 1000
+        self.MAX_MOVES = 170
+        self.PENALTY_FOR_FAULT_MOVE = 0.0
+        self.PENALTY_FOR_ONE_MOVE = 30.0 / self.MAX_MOVES
+        self.BONUS_FOR_FINISHED = 2.5
+        self.PENALTY_FOR_MORE_THAN_2_MARKS = 2.0 / self.MAX_MOVES
+        
+        """ Private """
+        self.move_count = 0
+        self.nnmodel = nm.NNModel()
+
+    def move(self):
+        gamma_inc = 0.1 / self.RUN_COUNT # increase gamma coeff on each run
+        gamma = 0.901 # coefficient ratio new moves / predicted moves
+
+        
+--------------------------- NEW RUN ---------------------------
+cur_run =  997  move_count= 170  labir_max_score= -44  fault_moves= 0  marks_failed= 77  total_score= -74.9058823529
+--------------------------- NEW RUN ---------------------------
+cur_run =  998  move_count= 170  labir_max_score= -44  fault_moves= 0  marks_failed= 77  total_score= -74.9058823529
+--------------------------- NEW RUN ---------------------------
+cur_run =  999  move_count= 170  labir_max_score= -44  fault_moves= 0  marks_failed= 77  total_score= -74.9058823529
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+        self.RUN_COUNT = 1000
+        self.MAX_MOVES = 170
+        self.PENALTY_FOR_FAULT_MOVE = 0.0
+        self.PENALTY_FOR_ONE_MOVE = 4.0 / self.MAX_MOVES
+        self.BONUS_FOR_FINISHED = 2.5
+        self.PENALTY_FOR_MORE_THAN_2_MARKS = 4.0 / self.MAX_MOVES
+        
+        """ Private """
+        self.move_count = 0
+        self.nnmodel = nm.NNModel()
+
+    def move(self):
+        gamma = 0.501 # coefficient ratio new moves / predicted moves
+        gamma_inc = (1.0 - gamma) / self.RUN_COUNT # increase gamma coeff on each run
+
+        
+--------------------------- NEW RUN ---------------------------
+cur_run =  0  move_count= 78  labir_max_score= -65  fault_moves= 92  marks_failed= 50  total_score= -68.0117647059
+--------------------------- NEW RUN ---------------------------
+cur_run =  1  move_count= 92  labir_max_score= -64  fault_moves= 78  marks_failed= 58  total_score= -67.5294117647
+--------------------------- NEW RUN ---------------------------
+cur_run =  2  move_count= 96  labir_max_score= -60  fault_moves= 74  marks_failed= 49  total_score= -63.4117647059
+--------------------------- NEW RUN ---------------------------
+cur_run =  3  move_count= 98  labir_max_score= -61  fault_moves= 72  marks_failed= 54  total_score= -64.5764705882
+--------------------------- NEW RUN ---------------------------
+cur_run =  4  move_count= 110  labir_max_score= -60  fault_moves= 60  marks_failed= 61  total_score= -64.0235294118
+--------------------------- NEW RUN ---------------------------
+cur_run =  5  move_count= 100  labir_max_score= -58  fault_moves= 70  marks_failed= 57  total_score= -61.6941176471
+--------------------------- NEW RUN ---------------------------
+cur_run =  6  move_count= 107  labir_max_score= -64  fault_moves= 63  marks_failed= 73  total_score= -68.2352941176
+--------------------------- NEW RUN ---------------------------
+cur_run =  7  move_count= 82  labir_max_score= -67  fault_moves= 88  marks_failed= 64  total_score= -70.4352941176
+--------------------------- NEW RUN ---------------------------
+cur_run =  8  move_count= 106  labir_max_score= -59  fault_moves= 64  marks_failed= 67  total_score= -63.0705882353
+--------------------------- NEW RUN ---------------------------
+cur_run =  9  move_count= 108  labir_max_score= -66  fault_moves= 62  marks_failed= 86  total_score= -70.5647058824
+--------------------------- NEW RUN ---------------------------
+cur_run =  10  move_count= 100  labir_max_score= -67  fault_moves= 70  marks_failed= 82  total_score= -71.2823529412
+--------------------------- NEW RUN ---------------------------
+
+
+
+
+
+cur_run =  449  move_count= 135  labir_max_score= -1  fault_moves= 18  marks_failed= 13  total_score= -4.48235294118
+--------------------------- NEW RUN ---------------------------
+cur_run =  450  move_count= 147  labir_max_score= -52  fault_moves= 23  marks_failed= 84  total_score= -57.4352941176
+--------------------------- NEW RUN ---------------------------
+cur_run =  451  move_count= 144  labir_max_score= -49  fault_moves= 26  marks_failed= 89  total_score= -54.4823529412
+--------------------------- NEW RUN ---------------------------
+cur_run =  452  move_count= 146  labir_max_score= -50  fault_moves= 24  marks_failed= 84  total_score= -55.4117647059
+--------------------------- NEW RUN ---------------------------
+cur_run =  453  move_count= 146  labir_max_score= -53  fault_moves= 24  marks_failed= 80  total_score= -58.3176470588
+--------------------------- NEW RUN ---------------------------
+cur_run =  454  move_count= 146  labir_max_score= -19  fault_moves= 24  marks_failed= 36  total_score= -23.2823529412
+--------------------------- NEW RUN ---------------------------
+cur_run =  455  move_count= 152  labir_max_score= -27  fault_moves= 18  marks_failed= 51  total_score= -31.7764705882
+--------------------------- NEW RUN ---------------------------
+cur_run =  456  move_count= 156  labir_max_score= -43  fault_moves= 14  marks_failed= 66  total_score= -48.2235294118
+--------------------------- NEW RUN ---------------------------
+cur_run =  457  move_count= 135  labir_max_score= -57  fault_moves= 35  marks_failed= 93  total_score= -62.3647058824
+--------------------------- NEW RUN ---------------------------
+cur_run =  458  move_count= 147  labir_max_score= -43  fault_moves= 23  marks_failed= 79  total_score= -48.3176470588
+--------------------------- NEW RUN ---------------------------
+cur_run =  459  move_count= 144  labir_max_score= -56  fault_moves= 26  marks_failed= 94  total_score= -61.6
+--------------------------- NEW RUN ---------------------------
+cur_run =  460  move_count= 150  labir_max_score= -44  fault_moves= 20  marks_failed= 64  total_score= -49.0352941176
+--------------------------- NEW RUN ---------------------------
+cur_run =  461  move_count= 152  labir_max_score= -27  fault_moves= 18  marks_failed= 41  total_score= -31.5411764706
+--------------------------- NEW RUN ---------------------------
+cur_run =  462  move_count= 140  labir_max_score= -56  fault_moves= 30  marks_failed= 92  total_score= -61.4588235294
+--------------------------- NEW RUN ---------------------------
+cur_run =  463  move_count= 154  labir_max_score= -6  fault_moves= 16  marks_failed= 29  total_score= -10.3058823529
+--------------------------- NEW RUN ---------------------------
+cur_run =  464  move_count= 142  labir_max_score= -44  fault_moves= 28  marks_failed= 66  total_score= -48.8941176471
+
+
+
+
+        
+cur_run =  947  move_count= 109  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.56470588235
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  948  move_count= 121  labir_max_score= -1  fault_moves= 0  marks_failed= 7  total_score= -4.01176470588
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  949  move_count= 107  labir_max_score= -1  fault_moves= 2  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+cur_run =  950  move_count= 164  labir_max_score= -20  fault_moves= 6  marks_failed= 67  total_score= -25.4352941176
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  951  move_count= 107  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  952  move_count= 109  labir_max_score= -1  fault_moves= 3  marks_failed= 0  total_score= -3.56470588235
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  953  move_count= 135  labir_max_score= -1  fault_moves= 2  marks_failed= 15  total_score= -4.52941176471
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  954  move_count= 129  labir_max_score= -1  fault_moves= 2  marks_failed= 15  total_score= -4.38823529412
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  955  move_count= 107  labir_max_score= -1  fault_moves= 2  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  956  move_count= 125  labir_max_score= -1  fault_moves= 2  marks_failed= 9  total_score= -4.15294117647
+--------------------------- NEW RUN ---------------------------
+cur_run =  957  move_count= 168  labir_max_score= -49  fault_moves= 2  marks_failed= 92  total_score= -55.1176470588
+--------------------------- NEW RUN ---------------------------
+cur_run =  958  move_count= 168  labir_max_score= -5  fault_moves= 2  marks_failed= 43  total_score= -9.96470588235
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  959  move_count= 107  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  960  move_count= 107  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  961  move_count= 109  labir_max_score= -1  fault_moves= 2  marks_failed= 0  total_score= -3.56470588235
+--------------------------- NEW RUN ---------------------------
+cur_run =  962  move_count= 168  labir_max_score= -12  fault_moves= 2  marks_failed= 55  total_score= -17.2470588235
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  963  move_count= 107  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  964  move_count= 107  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  965  move_count= 109  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.56470588235
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  966  move_count= 111  labir_max_score= -1  fault_moves= 3  marks_failed= 2  total_score= -3.65882352941
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  967  move_count= 107  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  968  move_count= 107  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  969  move_count= 107  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  970  move_count= 107  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  971  move_count= 127  labir_max_score= -1  fault_moves= 0  marks_failed= 7  total_score= -4.15294117647
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  972  move_count= 107  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  973  move_count= 107  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  974  move_count= 107  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.51764705882
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  975  move_count= 105  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  976  move_count= 109  labir_max_score= -1  fault_moves= 0  marks_failed= 2  total_score= -3.61176470588
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  977  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  978  move_count= 103  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.42352941176
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  979  move_count= 105  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  980  move_count= 107  labir_max_score= -1  fault_moves= 1  marks_failed= 2  total_score= -3.56470588235
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  981  move_count= 105  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  982  move_count= 105  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  983  move_count= 105  labir_max_score= -1  fault_moves= 2  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  984  move_count= 105  labir_max_score= -1  fault_moves= 3  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  985  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+cur_run =  986  move_count= 163  labir_max_score= -30  fault_moves= 7  marks_failed= 84  total_score= -35.8117647059
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  987  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  988  move_count= 163  labir_max_score= -1  fault_moves= 0  marks_failed= 34  total_score= -5.63529411765
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  989  move_count= 105  labir_max_score= -1  fault_moves= 1  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  990  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  991  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  992  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  993  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  994  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  995  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  996  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  997  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  998  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  999  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+ 
+ 
+ 
+ 
+ur_run =  993  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  994  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  995  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  996  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  997  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  998  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+--------------------------- NEW RUN ---------------------------
+finished!
+cur_run =  999  move_count= 105  labir_max_score= -1  fault_moves= 0  marks_failed= 0  total_score= -3.47058823529
+>>> 
+================= RESTART: C:\NN\labirint\traveller_test.py =================
+--------------------------- NEW RUN ---------------------------
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.---*-
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.--*--
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-*---
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.*----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.*....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.*----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-*---
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.--*--
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.---*-
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.----*
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.---*-
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.----*
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...*
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.--*
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.-*-
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.*--
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.*.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...*.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...*.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..-*.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..*-.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...---*.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...--*-.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...-*--.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...*---.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..-*..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...*...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...*...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...*.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...---*.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..*.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..*.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.*.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..*.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.*.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..*.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..*.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...---*.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...--*-.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...-*--.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...*---.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...*..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.*..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-----*-.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+----*--.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+---*---.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.*.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+---*---.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.*.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+---*---.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+--*----.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-*-----.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.*.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.*...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.*...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-*---...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.*...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-*---...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+--*--...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+---*-...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+----*...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+---*-...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+----*...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..*...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.-*...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.*-...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.-*...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..*..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.-*...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.*-...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.-*...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..*...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...*.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..-*-...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..--*...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..-*-...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..--*...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....*...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....*...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....*----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-*---.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....--*--.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....---*-.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....----*.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...*..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...*..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...*-----
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...-*----
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...--*---
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...---*--
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...----*-
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...-----*
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....*
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...--*
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....*
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...-----*
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....*
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...-----*
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...----*-
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..-..
+-..---...---*--
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..-..
+.....-...-..*..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.----
+.....-...-..*..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.-*--
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.--*-
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
+
+.....-----.---*
+.....-...-..-..
+.....-...-..-..
+-..---...------
+-...-.---.....-
+--..-...-...---
+.-.--...----.-.
+.-..-..--..--.-
+.-.--...-...-.-
+.-..-...-...-.-
+-----...-.-.-.-
+.-...----.-.---
+.-...-..-.-...-
+.-.-.-..-.-----
+-------.-.-....
+.-.-.-..-.-----
