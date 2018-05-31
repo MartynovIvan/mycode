@@ -7,11 +7,10 @@ import nnmodel as nm
 class Traveller:
     def __init__(self):
         """ INIT PARAMS"""
-        self.RUN_COUNT = 1
+        self.RUN_COUNT = 1000
         self.MAX_MOVES = 170
         self.PENALTY_FOR_FAULT_MOVE = 0.0
         self.PENALTY_FOR_ONE_MOVE = 4.0 / self.MAX_MOVES
-        self.BONUS_FOR_FINISHED = 2.5
         self.PENALTY_FOR_MORE_THAN_2_MARKS = 4.0 / self.MAX_MOVES
         
         """ Private """
@@ -19,7 +18,7 @@ class Traveller:
         self.nnmodel = nm.NNModel()
 
     def move(self):
-        gamma = 1.501 # coefficient ratio new moves / predicted moves
+        gamma = 0.501 # coefficient ratio new moves / predicted moves
         gamma_inc = (1.0 - gamma) / self.RUN_COUNT # increase gamma coeff on each run
                           
         for cur_run in range(0, self.RUN_COUNT):
