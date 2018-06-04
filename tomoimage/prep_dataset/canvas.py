@@ -25,9 +25,23 @@ class Canvas:
             print()
         print()
 
+    def set_pixel(self, x, y, value = 1):
+        if(x < 0 or y < 0):
+            return
+        if(x >= self.XMAX or y >= self.YMAX):
+            return
+        self.matr_canvas[x][y] = value
+
+    def add_pixel(self, x, y, value = 1):
+        if(x < 0 or y < 0):
+            return
+        if(x >= self.XMAX or y >= self.YMAX):
+            return
+        self.matr_canvas[x][y] += value
+
     def draw_hlne(self, x, y0, y1, value = 1):
         for y in range(y0, y1 + 1):
-            self.matr_canvas[x][y] = value
+            self.add_pixel(x, y, value)
 
     #         *
     #         **
