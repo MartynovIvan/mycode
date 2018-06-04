@@ -35,8 +35,8 @@ class Canvas:
     #       *****
     #
     def draw_triangle(self, x_top, y_top, height, y0, y1, value = 1):
-        y0_inc = -1.0
-        y1_inc = 1.0
+        y0_inc = (y0 - y_top) / (float)(height)
+        y1_inc = (y1 - y_top) / (float)(height)
         y_triangle0 = y_top
         y_triangle1 = y_top
         for x in range(x_top, x_top + height):
