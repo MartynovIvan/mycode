@@ -57,3 +57,7 @@ class Canvas:
             self.draw_hlne(x, round(y_triangle0), round(y_triangle1))
             y_triangle0 += y0_inc
             y_triangle1 += y1_inc
+
+    def draw_rectangle(self, x_top, y_top, width, height, value = 1):
+        for x in range(x_top, x_top + height):
+            self.draw_hlne(x, y_top, y_top + width - 1)
