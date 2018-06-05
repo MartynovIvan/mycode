@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 # 0  - >  Y
 # |
@@ -61,3 +62,24 @@ class Canvas:
     def draw_rectangle(self, x_top, y_top, width, height, value = 1):
         for x in range(x_top, x_top + height):
             self.draw_hlne(x, y_top, y_top + width - 1)
+
+    
+    # angle in degree clockwise
+    #  function returns a Canvas object rotated by angle with a center pivot point
+    #  points that exceed an area disappear
+    def rotate_over_angle(self, angle):
+        a = angle * math.pi / 180.0
+        centerx = self.XMAX / 2
+        centery = self.XMAX / 2
+        canvas2 = Canvas(self.XMAX, self.YMAX)
+        sina = math.sin(a)
+        cosa = math.cos(a)
+        for x in range(0, self.XMAX):
+            for y in range(0, self.YMAX ):
+                y_ = (y - centery) * cosa - (x - centery) * sina
+                x_ = (y - centery) * sina + (x - centery) * cosa
+                y_ += centery
+                x_ += centerx
+                color = self.matr_canvas[x][y]                
+                canvas2.set_pixel(x_, y_, color)
+        return canvas2

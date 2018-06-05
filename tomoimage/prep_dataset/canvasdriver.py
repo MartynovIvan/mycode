@@ -3,8 +3,8 @@ import random
 
 class CanvasDriver:
     N_TRIANGLES = 1
-    XMAX = 10
-    YMAX = 10
+    XMAX = 11
+    YMAX = 11
     COLORMAX = 10
 
     def __init__(self):
