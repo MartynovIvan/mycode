@@ -62,14 +62,13 @@ class Canvas:
         y_triangle0 = y_top
         y_triangle1 = y_top
         for x in range(x_top, x_top + height):
-            self.draw_hlne(x, round(y_triangle0), round(y_triangle1))
+            self.draw_hlne(x, round(y_triangle0), round(y_triangle1), value)
             y_triangle0 += y0_inc
             y_triangle1 += y1_inc
 
     def draw_rectangle(self, x_top, y_top, width, height, value = 1):
         for x in range(x_top, x_top + height):
-            self.draw_hlne(x, y_top, y_top + width - 1)
-
+            self.draw_hlne(x, y_top, y_top + width - 1, value)
     
     # angle in degree clockwise
     #  function returns a Canvas object rotated by angle with a center pivot point
@@ -87,7 +86,7 @@ class Canvas:
                 x_ = (y - centery) * sina + (x - centery) * cosa
                 y_ += centery
                 x_ += centerx
-                color = self.matr_canvas[x][y]                
+                color = self.matr_canvas[x][y]
                 canvas2.set_pixel(round(x_), round(y_), color)
         return canvas2
         
@@ -110,3 +109,10 @@ class Canvas:
                 color = self.get_pixel(round(x_), round(y_))
                 canvas2.set_pixel(x, y, color)
         return canvas2
+        
+    def get_dataset(self):
+        matr_res = np.zeros((self.YMAX))
+        for y in range(0, self.YMAX):
+            for x in range(0, self.XMAX):
+                matr_res[y] += self.matr_canvas[x][y]
+        return matr_res
