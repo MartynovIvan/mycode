@@ -81,5 +81,5 @@ class Canvas:
                 y_ += centery
                 x_ += centerx
                 color = self.matr_canvas[x][y]                
-                canvas2.set_pixel(x_, y_, color)
+                canvas2.set_pixel(round(x_), (y_), color)
         return canvas2
