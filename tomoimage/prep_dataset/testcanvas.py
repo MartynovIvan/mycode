@@ -32,6 +32,7 @@ if(1 == 0):
 #     def draw_triangle(self, x_top, y_top, height, y0, y1, value = 1)
 if(1 == 1):    
     cv = canvas.Canvas(11, 11)
-    cv.draw_rectangle(x_top = 3, y_top = 3, height = 7, width = 7)
-    rot = cv.rotate_over_angle(45)
+    cv.draw_rectangle(x_top = 3, y_top = 3, height = 7, width = 2)
+    cv.printme()
+    rot = cv.rotate_over_angle2(45)
     rot.printme()
