@@ -3,8 +3,8 @@ import random
 
 class CanvasDriver:
     N_TRIANGLES = 1
-    XMAX = 11
-    YMAX = 11
+    XMAX = 31
+    YMAX = 31
     COLORMAX = 10
     N_ROTATIONS = 10
 
@@ -13,7 +13,7 @@ class CanvasDriver:
 
     def putOriginalImageToStorage(self, canvas):
         print("Original:")
-        canvas.printme()
+        #canvas.printme()
         
     def putNextDatasetToStorage(self, newcanvas):
         print("Next:")
@@ -33,8 +33,8 @@ class CanvasDriver:
             self.putOriginalImageToStorage(self.canvas)
         degree = 0.0
         for nrot in range(0, self.N_ROTATIONS):
-            print(nrot)
             degree = 360.0 / self.N_ROTATIONS * nrot
+            print("nrot=", nrot, "degree=", degree)
             newcanvas = self.canvas.rotate_over_angle(round(degree))
             self.putNextDatasetToStorage(newcanvas)
 
