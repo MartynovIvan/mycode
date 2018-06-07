@@ -5,9 +5,9 @@ class CanvasDriver:
     XMAX = 31
     YMAX = 31
     COLORMAX = 10
-    N_ROTATIONS = 1
+    N_ROTATIONS = 10
     N_TRIANGLES = 10
-    N_RECTANGLES = 1
+    N_RECTANGLES = 10
 
     def __init__(self):
         self.canvas = canvas.Canvas(self.XMAX, self.YMAX)
@@ -33,12 +33,6 @@ class CanvasDriver:
             value = random.randint(1, self.COLORMAX)
             self.canvas.draw_triangle(x_top, y_top, height, y0, y1, value)
             self.putOriginalImageToStorage(self.canvas)
-        degree = 0.0
-        for nrot in range(0, self.N_ROTATIONS):
-            degree = 360.0 / self.N_ROTATIONS * nrot
-            print("nrot=", nrot, "degree=", degree)
-            newcanvas = self.canvas.rotate_over_angle(round(degree))
-            self.putNextDatasetToStorage(newcanvas)
 
     def fillRectangles(self):
         for x in range(0, self.N_RECTANGLES):
@@ -51,16 +45,25 @@ class CanvasDriver:
             self.canvas.draw_rectangle(x_top = x_top, y_top = y_top, height = height, width = width, value = value)
             self.putOriginalImageToStorage(self.canvas)
 
+    def rotate(self):
         degree = 0.0
         for nrot in range(0, self.N_ROTATIONS):
             degree = 360.0 / self.N_ROTATIONS * nrot
             print("nrot=", nrot, "degree=", degree)
             newcanvas = self.canvas.rotate_over_angle(round(degree))
             self.putNextDatasetToStorage(newcanvas)
-
+    
     def prepareDataset(self):
-        #self.fillTriangles()
-        self.fillRectangles()
+        self.N_ROTATIONS = 100
+        for i in range (1, 1000):
+            for self.N_TRIANGLES in range (1, 10):
+                self.fillTriangles()
+                self.rotate()
+
+        for i in range (1, 1000):
+            for self.N_RECTANGLES in range (1, 10):
+                self.fillRectangles()
+                self.rotate()
        
     def printme(self):
         self.canvas.printme()

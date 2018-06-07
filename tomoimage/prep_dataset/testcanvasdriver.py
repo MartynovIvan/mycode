@@ -5,11 +5,11 @@ if(1 == 0):
         cv = canvasdriver.CanvasDriver()
         cv.prepareDataset()
 
-if(1 == 1):
+if(0 == 1):
     for i in range (1, 10):
         cv = canvasdriver.CanvasDriver()
         cv.prepareDataset()
 
-if(0 == 1):
+if(1 == 1):
     cv = canvasdriver.CanvasDriver()
     cv.prepareDataset()
