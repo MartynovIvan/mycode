@@ -6,7 +6,7 @@ class CanvasDriver:
     XMAX = 31
     YMAX = 31
     COLORMAX = 10
-    N_ROTATIONS = 10
+    N_ROTATIONS = 1
 
     def __init__(self):
         self.canvas = canvas.Canvas(self.XMAX, self.YMAX)
@@ -23,11 +23,12 @@ class CanvasDriver:
                 
     def fillTriangles(self):
         for x in range(0, self.N_TRIANGLES):
-            x_top = random.randint(0, round(self.XMAX / 2))
-            y_top = random.randint(0, round(self.YMAX / 2))
-            height = random.randint(2, round(self.XMAX / 2))
-            y0 = random.randint(0, round(self.YMAX / 2) - 1)
-            y1 = random.randint(round(self.YMAX / 2) + 1, self.YMAX)
+            x_top = random.randint(round(self.XMAX / 3.5), round(self.XMAX / 4 * 2))
+            y_top = random.randint(round(self.YMAX / 3.7), round(self.YMAX / 3 * 2.3))
+            height = random.randint(5, round(self.XMAX /2.5))
+            y0 = random.randint(3, round(self.YMAX / 3.0 ) - 1)
+            y1 = random.randint(round(self.YMAX - self.YMAX / 3.0) + 1, self.YMAX-3)
+            print(x_top, y_top, height, y0, y1)
             value = random.randint(1, self.COLORMAX)
             self.canvas.draw_triangle(x_top, y_top, height, y0, y1, value)
             self.putOriginalImageToStorage(self.canvas)
