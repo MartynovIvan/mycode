@@ -1,6 +1,14 @@
 import sqlite3 as lite
 import pandas as pd
 
+class Blob:
+    """Automatically encode a binary string."""
+    def __init__(self, s):
+        self.s = s
+
+    def _quote(self):
+        return "'%s'" % sqlite.encode(self.s)
+        
 class CoreDB:
     def __init__(self):
         self.connected = False
@@ -10,7 +18,7 @@ class CoreDB:
         if (not self.connected):
             self.con = lite.connect('sqlite.db')
             self.connected = True
-            self.CreateLabTable()
+            self.CreateTables()
         return self.con
 
     ########################################################################################################
@@ -58,14 +66,13 @@ class CoreDB:
         with con:
             con.row_factory = lite.Row
             cur = con.cursor() 
-            cur.execute("PRAGMA foreign_keys=on; "
-                "CREATE TABLE IF NOT EXISTS src_image ( "
+            cur.execute("CREATE TABLE IF NOT EXISTS src_image ( "
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, "
                 "width INTEGER, "
                 "height INTEGER, "
-                "image BLOB );"
-                "CREATE TABLE IF NOT EXISTS rotated_image ( "
-                "FOREIGN KEY (image_id) REFERENCES src_image(id), "
+                "image BLOB );" )
+            cur.execute("CREATE TABLE IF NOT EXISTS rotated_image ( "
+                "image_id PRIMARY KEY, "
                 "angle REAL, "
                 "image BLOB );" )
 
@@ -77,7 +84,7 @@ class CoreDB:
             cur = con.cursor() 
             cur.execute("INSERT INTO src_image (width, height, image) " + 
                 "VALUES (:width, :height, :image)", 
-                {"width": width, "height": height, "image":[buffer(image_bytes)]})
+                {"width": width, "height": height, "image": lite.Binary(image_bytes) })
             return (cur.lastrowid)
 
     def add_image_rotation(self, image_id, angle, image_bytes):
@@ -87,4 +94,4 @@ class CoreDB:
             cur = con.cursor() 
             cur.execute("INSERT INTO rotated_image (image_id, angle, image) " + 
                 "VALUES (:image_id, :angle, :image)", 
-                {"image_id": image_id, "angle": angle, "image":[buffer(image_bytes)]})
+                {"image_id": image_id, "angle": angle, "image": lite.Binary(image_bytes) })
