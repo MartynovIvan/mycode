@@ -1,22 +1,36 @@
 import sqlite3 as lite
 import pandas as pd
+import numpy as np
+import io
 
-class Blob:
-    """Automatically encode a binary string."""
-    def __init__(self, s):
-        self.s = s
+def adapt_array(arr):
+    """
+    http://stackoverflow.com/a/31312102/190597 (SoulNibbler)
+    """
+    out = io.BytesIO()
+    np.save(out, arr)
+    out.seek(0)
+    return lite.Binary(out.read())
 
-    def _quote(self):
-        return "'%s'" % sqlite.encode(self.s)
+def convert_array(text):
+    out = io.BytesIO(text)
+    out.seek(0)
+    return np.load(out)
         
 class CoreDB:
     def __init__(self):
         self.connected = False
         self.con = None
+
+        # Converts np.array to TEXT when inserting
+        lite.register_adapter(np.ndarray, adapt_array)
+
+        # Converts TEXT to np.array when selecting
+        lite.register_converter("array", convert_array)
     
     def getSQLiteConnect(self):
         if (not self.connected):
-            self.con = lite.connect('sqlite.db')
+            self.con = lite.connect('sqlite.db', detect_types=lite.PARSE_DECLTYPES)
             self.connected = True
             self.CreateTables()
         return self.con
@@ -28,24 +42,7 @@ class CoreDB:
     '''
         Print database table
     '''
-    def PrintTable(self, table, ncols):
-        print("--- TABLE ", table)
-        con = self.getSQLiteConnect()
-        with con:
-            con.row_factory = lite.Row
-            cur = con.cursor() 
-            cur.execute("select * from " + table)
-            rows = cur.fetchall()
-            for row in rows:
-                str1 = ""
-                for j in range(ncols):
-                    str1 = str1 + " [" + str(j) + "]=" + str(row[j]) 
-                print(str1)
-
-    '''
-        Print database table
-    '''
-    def PrintTable2(self, table):
+    def PrintTable(self, table):
         print("--- TABLE ", table)
         con = self.getSQLiteConnect()
         # Pretty way
@@ -70,28 +67,28 @@ class CoreDB:
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, "
                 "width INTEGER, "
                 "height INTEGER, "
-                "image BLOB );" )
+                "image array );" )
             cur.execute("CREATE TABLE IF NOT EXISTS rotated_image ( "
                 "image_id PRIMARY KEY, "
                 "angle REAL, "
-                "image BLOB );" )
+                "image array );" )
 
     # returns src image_id
-    def add_src_image(self, width, height, image_bytes):
+    def add_src_image(self, width, height, image_numpyarr):
         con = self.getSQLiteConnect()
         with con:
             con.row_factory = lite.Row
             cur = con.cursor() 
             cur.execute("INSERT INTO src_image (width, height, image) " + 
                 "VALUES (:width, :height, :image)", 
-                {"width": width, "height": height, "image": lite.Binary(image_bytes) })
+                {"width": width, "height": height, "image": image_numpyarr })
             return (cur.lastrowid)
 
-    def add_image_rotation(self, image_id, angle, image_bytes):
+    def add_image_rotation(self, image_id, angle, image_numpyarr):
         con = self.getSQLiteConnect()
         with con:
             con.row_factory = lite.Row
             cur = con.cursor() 
             cur.execute("INSERT INTO rotated_image (image_id, angle, image) " + 
                 "VALUES (:image_id, :angle, :image)", 
-                {"image_id": image_id, "angle": angle, "image": lite.Binary(image_bytes) })
+                {"image_id": image_id, "angle": angle, "image": image_numpyarr })

@@ -58,12 +58,12 @@ class CanvasDriver:
         for i in range (1, 1000):
             for self.N_TRIANGLES in range (1, 10):
                 self.fillTriangles()
-                self.rotate()
+                canv = self.rotate()
 
         for i in range (1, 1000):
             for self.N_RECTANGLES in range (1, 10):
                 self.fillRectangles()
-                self.rotate()
+                canv = self.rotate()
        
     def printme(self):
         self.canvas.printme()

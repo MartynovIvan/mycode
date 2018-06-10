@@ -11,7 +11,7 @@ import math
 class Canvas:
     XMAX = 10
     YMAX = 10
-    #matr_canvas = None
+    matr_canvas = None
     
     def __init__(self, XMAX = 10, YMAX = 10):
         self.XMAX = XMAX
