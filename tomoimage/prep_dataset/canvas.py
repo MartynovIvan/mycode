@@ -18,6 +18,8 @@ class Canvas:
         self.YMAX = YMAX
         self.matr_canvas = np.zeros((self.XMAX, self.YMAX))
 
+    def getmatr_canvas(self):
+        return self.matr_canvas
 
     def printme(self):
         for x in range(0, self.XMAX):

@@ -69,9 +69,11 @@ class CoreDB:
                 "height INTEGER, "
                 "image array );" )
             cur.execute("CREATE TABLE IF NOT EXISTS rotated_image ( "
-                "image_id PRIMARY KEY, "
+                "image_id INTEGER, "
                 "angle REAL, "
                 "image array );" )
+            cur.execute("CREATE INDEX IF NOT EXISTS 'image_id_idx' on rotated_image (image_id);" )
+
 
     # returns src image_id
     def add_src_image(self, width, height, image_numpyarr):
@@ -92,3 +94,4 @@ class CoreDB:
             cur.execute("INSERT INTO rotated_image (image_id, angle, image) " + 
                 "VALUES (:image_id, :angle, :image)", 
                 {"image_id": image_id, "angle": angle, "image": image_numpyarr })
+
