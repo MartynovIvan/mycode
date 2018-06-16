@@ -95,3 +95,26 @@ class CoreDB:
                 "VALUES (:image_id, :angle, :image)", 
                 {"image_id": image_id, "angle": angle, "image": image_numpyarr })
 
+    # [ train_set_x, train_set_y,
+    #   valid_set_x, valid_set_y,
+    #   test_set_x, test_set_y ]
+
+    # [ train_set_x, train_set_y ]
+    def get_whole_dataset(self)
+        con = self.getSQLiteConnect()
+        with con:
+            con.row_factory = lite.Row
+            cur_srcimage = con.cursor() 
+            cur_srcimage.execute("select * from src_image")
+            rows_src = cur_srcimage.fetchall()
+            for row_src in rows_src:
+                id = row_src[0]
+                src_image = row_src[3]
+                
+                cur_rotimage = con.cursor() 
+                cur_rotimage.execute("select * from rotated_image where image_id = :image_id", {"image_id": id})
+                rows_rot = cur_rotimage.fetchall()
+                for row_rot in rows_rot:
+                    id = row_rot[0]
+                    rot_image = row_rot[2]
+
