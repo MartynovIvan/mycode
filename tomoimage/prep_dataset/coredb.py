@@ -18,9 +18,12 @@ def convert_array(text):
     return np.load(out)
         
 class CoreDB:
-    def __init__(self):
+    def __init__(self, XMAX, YMAX, N_ROTATIONS):
         self.connected = False
         self.con = None
+        self.XMAX = XMAX
+        self.YMAX = YMAX
+        self.N_ROTATIONS = N_ROTATIONS
 
         # Converts np.array to TEXT when inserting
         lite.register_adapter(np.ndarray, adapt_array)
@@ -100,8 +103,14 @@ class CoreDB:
     #   test_set_x, test_set_y ]
 
     # [ train_set_x, train_set_y ]
+    #   train_set_x [shape=[examples_count, angle_order_number, sum]]
+    #   train_set_y [shape=[examples_count, width, height]]
     def get_whole_dataset(self)
         con = self.getSQLiteConnect()
+        train_set_x = np.empty(shape=[0, self.N_ROTATIONS, 0])
+        train_set_x_cnt = 0
+        train_set_y = np.empty(shape=[0, self.XMAX, self.YMAX])
+        train_set_y_cnt = 0
         with con:
             con.row_factory = lite.Row
             cur_srcimage = con.cursor() 
@@ -110,11 +119,16 @@ class CoreDB:
             for row_src in rows_src:
                 id = row_src[0]
                 src_image = row_src[3]
+                train_set_y = np.append(train_set_y, [train_set_x_cnt, src_image], axis=0)
+                train_set_x_cnt += 1
                 
                 cur_rotimage = con.cursor() 
-                cur_rotimage.execute("select * from rotated_image where image_id = :image_id", {"image_id": id})
+                cur_rotimage.execute("select * from rotated_image where image_id = :image_id order by image_id", {"image_id": id})
                 rows_rot = cur_rotimage.fetchall()
                 for row_rot in rows_rot:
                     id = row_rot[0]
                     rot_image = row_rot[2]
+                    train_set_x = np.append(train_set_x, [train_set_y_cnt, rot_image], axis=0)
+                    train_set_y_cnt += 1
+        return [train_set_x, train_set_y]
 
