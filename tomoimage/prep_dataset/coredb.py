@@ -109,7 +109,7 @@ class CoreDB:
         con = self.getSQLiteConnect()
         train_set_x = np.empty(shape=[0, self.N_ROTATIONS, 0])
         train_set_x_cnt = 0
-        train_set_y = np.empty(shape=[0, self.XMAX, self.YMAX])
+        train_set_y = np.empty(shape=[self.XMAX, self.YMAX])
         train_set_y_cnt = 0
         with con:
             con.row_factory = lite.Row
@@ -119,11 +119,17 @@ class CoreDB:
             for row_src in rows_src:
                 id = row_src[0]
                 src_image = row_src[3]
+                print("src_image.shape[0]", src_image.shape[0])
+                print("src_image.shape[0]", src_image.shape[1])
+
+                print("train_set_y.shape[0]", train_set_y.shape[0])
+                print("train_set_y.shape[1]", train_set_y.shape[1])
                 #train_set_y = np.append(train_set_y, [train_set_x_cnt, src_image], axis=0)
                 train_set_y = np.concatenate( ( train_set_y, src_image ) )
                 train_set_x_cnt += 1
                 print("added", train_set_x_cnt)
                 
+                """
                 cur_rotimage = con.cursor() 
                 cur_rotimage.execute("select * from rotated_image where image_id = :image_id order by image_id", {"image_id": id})
                 rows_rot = cur_rotimage.fetchall()
@@ -133,5 +139,6 @@ class CoreDB:
                     #train_set_x = np.append(train_set_x, [train_set_y_cnt, rot_image], axis=0)
                     train_set_x = np.concatenate( ( train_set_x, rot_image ) )
                     train_set_y_cnt += 1
+                """
         return [train_set_x, train_set_y]
 
