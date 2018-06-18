@@ -105,7 +105,7 @@ class CoreDB:
     # [ train_set_x, train_set_y ]
     #   train_set_x [shape=[examples_count, angle_order_number, sum]]
     #   train_set_y [shape=[examples_count, width, height]]
-    def get_whole_dataset(self)
+    def get_whole_dataset(self):
         con = self.getSQLiteConnect()
         train_set_x = np.empty(shape=[0, self.N_ROTATIONS, 0])
         train_set_x_cnt = 0
@@ -119,8 +119,10 @@ class CoreDB:
             for row_src in rows_src:
                 id = row_src[0]
                 src_image = row_src[3]
-                train_set_y = np.append(train_set_y, [train_set_x_cnt, src_image], axis=0)
+                #train_set_y = np.append(train_set_y, [train_set_x_cnt, src_image], axis=0)
+                train_set_y = np.concatenate( ( train_set_y, src_image ) )
                 train_set_x_cnt += 1
+                print("added", train_set_x_cnt)
                 
                 cur_rotimage = con.cursor() 
                 cur_rotimage.execute("select * from rotated_image where image_id = :image_id order by image_id", {"image_id": id})
@@ -128,7 +130,8 @@ class CoreDB:
                 for row_rot in rows_rot:
                     id = row_rot[0]
                     rot_image = row_rot[2]
-                    train_set_x = np.append(train_set_x, [train_set_y_cnt, rot_image], axis=0)
+                    #train_set_x = np.append(train_set_x, [train_set_y_cnt, rot_image], axis=0)
+                    train_set_x = np.concatenate( ( train_set_x, rot_image ) )
                     train_set_y_cnt += 1
         return [train_set_x, train_set_y]
 
