@@ -1,3 +1,4 @@
+
 import sqlite3 as lite
 import pandas as pd
 import numpy as np
@@ -107,7 +108,7 @@ class CoreDB:
     #   train_set_y [shape=[examples_count, width, height]]
     def get_whole_dataset(self):
         con = self.getSQLiteConnect()
-        train_set_x = np.empty(shape=[0, self.N_ROTATIONS, 0])
+        train_set_x = np.empty(shape=[self.N_ROTATIONS, self.YMAX, 0]) # [..., rotation_number_in_set, set_number]
         train_set_x_cnt = 0
         train_set_y = np.empty(shape=[self.XMAX, self.YMAX, 0])
         train_set_y_cnt = 0
@@ -119,28 +120,51 @@ class CoreDB:
             for row_src in rows_src:
                 id = row_src[0]
                 src_image = row_src[3]
-                print("src_image.shape[0]", src_image.shape[0])
-                print("src_image.shape[0]", src_image.shape[1])
+                print("id=", id)
+                #print("src_image.shape[0]", src_image.shape[0])
+                #print("src_image.shape[0]", src_image.shape[1])
 
                 #train_set_y = np.append(train_set_y, [train_set_x_cnt, src_image], axis=0)
                 #train_set_y = np.concatenate( ( train_set_y, src_image ) )
                 train_set_y = np.append(train_set_y, np.atleast_3d(src_image), axis=2)
-                train_set_x_cnt += 1
-                print("added", train_set_x_cnt)
-                print("train_set_y.shape[0]", train_set_y.shape[0])
-                print("train_set_y.shape[1]", train_set_y.shape[1])
-                print("train_set_y.shape[2]", train_set_y.shape[2])
+                train_set_y_cnt += 1
+                #print("added", train_set_y_cnt)
+                #print("train_set_y.shape[1]", train_set_y.shape[1])
+                #print("train_set_y.shape[2]", train_set_y.shape[2])
                 
-                """
+                rot_set_x = np.empty(shape=[0, self.YMAX])
                 cur_rotimage = con.cursor() 
-                cur_rotimage.execute("select * from rotated_image where image_id = :image_id order by image_id", {"image_id": id})
+                cur_rotimage.execute("select image_id, angle, image from rotated_image where image_id = :image_id order by image_id", {"image_id": id})
                 rows_rot = cur_rotimage.fetchall()
                 for row_rot in rows_rot:
-                    id = row_rot[0]
+                    image_id = row_rot[0]
                     rot_image = row_rot[2]
-                    #train_set_x = np.append(train_set_x, [train_set_y_cnt, rot_image], axis=0)
-                    train_set_x = np.concatenate( ( train_set_x, rot_image ) )
-                    train_set_y_cnt += 1
-                """
+                    print("image_id=", image_id)
+                    #print("rot_image.shape[0]", rot_image.shape[0])
+                    #rot_set_x = np.append(rot_set_x, [train_set_y_cnt, rot_image], axis=0)
+                    #rot2d = np.atleast_2d(rot_image)
+                    #print("rot2d[0]", rot2d.shape[0])
+                    #print("rot2d[1]", rot2d.shape[1])
+                    #print("rot_set_x.shape[0]", rot_set_x.shape[0])
+                    #print("rot_set_x.shape[1]", rot_set_x.shape[1])
+
+                    #np.vstack([a,l])
+                    rot_set_x = np.vstack([rot_set_x, rot_image])
+                    #rot_set_x = np.dstack((rot_set_x, rot2d))
+                    #rot_set_x = np.concatenate( ( rot_set_x, np.atleast_2d(rot_image) ) )
+                    #print("rot_set_x.shape[0]", rot_set_x.shape[0])
+                    #print("rot_set_x.shape[1]", rot_set_x.shape[1])
+                    #print()
+                    #print()
+                    
+                print("rot_set_x.shape[0]", rot_set_x.shape[0])
+                print("rot_set_x.shape[1]", rot_set_x.shape[1])
+                print("train_set_x.shape[0]", train_set_x.shape[0])
+                print("train_set_x.shape[1]", train_set_x.shape[1])
+                print("train_set_x.shape[2]", train_set_x.shape[2])
+
+                #train_set_x = np.concatenate( ( train_set_x, rot_set_x ) )
+                train_set_x = np.append(train_set_x, np.atleast_3d(rot_set_x), axis=2)
+                train_set_x_cnt += 1
         return [train_set_x, train_set_y]
 
