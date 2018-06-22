@@ -5,7 +5,7 @@ import numpy as np
 
 XMAX = 31
 YMAX = 31
-N_ROTATIONS = 100
+N_ROTATIONS = 10
 
 db = coredb.CoreDB(XMAX, YMAX, N_ROTATIONS)
 

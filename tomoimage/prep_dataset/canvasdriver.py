@@ -7,9 +7,9 @@ class CanvasDriver:
     XMAX = 31
     YMAX = 31
     COLORMAX = 10
-    N_ROTATIONS = 100
-    N_RECT_SQUARE_COUNT = 200
-    N_RECT_TRIANGL_COUNT = 200
+    N_ROTATIONS = 10
+    N_RECT_SQUARE_COUNT = 2
+    N_RECT_TRIANGL_COUNT = 2
     N_MAX_TRIANGLES = 10
     N_MAX_RECTANGLES = 10
     db = None
@@ -17,13 +17,14 @@ class CanvasDriver:
 
     def __init__(self):
         self.canvas = canvas.Canvas(self.XMAX, self.YMAX)
-        self.db = coredb.CoreDB()
+        self.db = coredb.CoreDB(self.XMAX, self.YMAX,  self.N_ROTATIONS)
         self.db.CleanTable("src_image")
         self.db.CleanTable("rotated_image")
 
     def putOriginalImageToStorage(self, canvas_original):
         #print("Original:")
         self.imageid = self.db.add_src_image(self.XMAX, self.YMAX, canvas_original.getmatr_canvas())
+        print("self.imageid=", self.imageid)
         #canvas.printme()
         
     def putNextDatasetToStorage(self, angle, newcanvas):
@@ -32,6 +33,7 @@ class CanvasDriver:
         dataset = newcanvas.get_dataset()
         #print(dataset)
         self.db.add_image_rotation(self.imageid, angle, dataset)
+        print("imageid for rot=", self.imageid)
         #print()
                 
     def fillTriangles(self):
@@ -44,7 +46,7 @@ class CanvasDriver:
             #print(x_top, y_top, height, y0, y1)
             value = random.randint(1, self.COLORMAX)
             self.canvas.draw_triangle(x_top, y_top, height, y0, y1, value)
-            self.putOriginalImageToStorage(self.canvas)
+        self.putOriginalImageToStorage(self.canvas)
 
     def fillRectangles(self):
         for x in range(0, self.N_RECTANGLES):
@@ -55,7 +57,7 @@ class CanvasDriver:
             #print(x_top, y_top, height, width)
             value = random.randint(1, self.COLORMAX)
             self.canvas.draw_rectangle(x_top = x_top, y_top = y_top, height = height, width = width, value = value)
-            self.putOriginalImageToStorage(self.canvas)
+        self.putOriginalImageToStorage(self.canvas)
 
     def rotate(self):
         degree = 0.0
