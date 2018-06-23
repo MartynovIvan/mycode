@@ -24,4 +24,10 @@ if(1 == 1):
     print(x)
     print(y)
     
-    
+    print("x.shape[0]", x.shape[0])
+    print("x.shape[1]", x.shape[1])
+    print("x.shape[2]", x.shape[2])
+
+    print("y.shape[0]", y.shape[0])
+    print("y.shape[1]", y.shape[1])
+    print("y.shape[2]", y.shape[2])
