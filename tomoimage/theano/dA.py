@@ -45,10 +45,10 @@ from theano.sandbox.rng_mrg import MRG_RandomStreams as RandomStreams
 from logistic_sgd import load_data
 from utils import tile_raster_images
 
-try:
-    import PIL.Image as Image
-except ImportError:
-    import Image
+#try:
+#    import PILLOW.Image as Image
+#except ImportError:
+#    import Image
 
 
 class dA(object):
@@ -406,11 +406,11 @@ def test_dA(learning_rate=0.1, training_epochs=15,
     # end-snippet-3
 
     # start-snippet-4
-    image = Image.fromarray(tile_raster_images(
-        X=da.W.get_value(borrow=True).T,
-        img_shape=(28, 28), tile_shape=(10, 10),
-        tile_spacing=(1, 1)))
-    image.save('filters_corruption_30.png')
+    #image = Image.fromarray(tile_raster_images(
+    #    X=da.W.get_value(borrow=True).T,
+    #    img_shape=(28, 28), tile_shape=(10, 10),
+    #    tile_spacing=(1, 1)))
+    #image.save('filters_corruption_30.png')
     # end-snippet-4
 
     os.chdir('../')
