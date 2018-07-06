@@ -35,7 +35,7 @@ from __future__ import print_function
 import sys
 sys.path.append('../')
 
-import prep_dataset 
+import prep_dataset.coredb as coredb
 import os
 import sys
 import timeit
@@ -48,6 +48,8 @@ from theano.sandbox.rng_mrg import MRG_RandomStreams as RandomStreams
 
 from logistic_sgd import load_data
 from utils import tile_raster_images
+
+import numpy as np
 
 #try:
 #    import PILLOW.Image as Image
@@ -283,7 +285,36 @@ def test_dA(learning_rate=0.1, training_epochs=15,
 
     """
     datasets = load_data(dataset)
-    train_set_x, train_set_y = datasets[0]
+    train_set_x, _ = datasets[0]
+
+    XMAX = 31
+    YMAX = 31
+    N_ROTATIONS = 10
+
+    db = coredb.CoreDB(XMAX, YMAX, N_ROTATIONS)
+
+    [x, y] = db.get_whole_dataset()
+    print(x)
+    print(y)
+    
+    print("x.shape[0]", x.shape[0])
+    print("x.shape[1]", x.shape[1])
+    print("x.shape[2]", x.shape[2])
+    #x.shape[0] 10 - rotation
+    #x.shape[1] 31 - vector of 
+    #x.shape[2] 40 - N samples
+
+    print("y.shape[0]", y.shape[0])
+    print("y.shape[1]", y.shape[1])
+    print("y.shape[2]", y.shape[2])
+    #y.shape[0] 31 - dim 1
+    #y.shape[1] 31 - dim 2
+    #y.shape[2] 40 - N samples
+
+    print("train_set_x[0]", train_set_x.get_value(borrow=True).shape[0])
+    print("train_set_x[1]", train_set_x.get_value(borrow=True).shape[1])
+    #size - train_set_x[0] 50000
+    #size - train_set_x[1] 784
 
     # compute number of minibatches for training, validation and testing
     n_train_batches = train_set_x.get_value(borrow=True).shape[0] // batch_size

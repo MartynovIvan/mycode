@@ -120,7 +120,7 @@ class CoreDB:
             for row_src in rows_src:
                 id = row_src[0]
                 src_image = row_src[3]
-                print("id=", id)
+                #print("id=", id)
                 #print("src_image.shape[0]", src_image.shape[0])
                 #print("src_image.shape[0]", src_image.shape[1])
 
@@ -139,7 +139,7 @@ class CoreDB:
                 for row_rot in rows_rot:
                     image_id = row_rot[0]
                     rot_image = row_rot[2]
-                    print("image_id=", image_id)
+                    #print("image_id=", image_id)
                     #print("rot_image.shape[0]", rot_image.shape[0])
                     #rot_set_x = np.append(rot_set_x, [train_set_y_cnt, rot_image], axis=0)
                     #rot2d = np.atleast_2d(rot_image)
@@ -157,11 +157,11 @@ class CoreDB:
                     #print()
                     #print()
                     
-                print("rot_set_x.shape[0]", rot_set_x.shape[0])
-                print("rot_set_x.shape[1]", rot_set_x.shape[1])
-                print("train_set_x.shape[0]", train_set_x.shape[0])
-                print("train_set_x.shape[1]", train_set_x.shape[1])
-                print("train_set_x.shape[2]", train_set_x.shape[2])
+                #print("rot_set_x.shape[0]", rot_set_x.shape[0])
+                #print("rot_set_x.shape[1]", rot_set_x.shape[1])
+                #print("train_set_x.shape[0]", train_set_x.shape[0])
+                #print("train_set_x.shape[1]", train_set_x.shape[1])
+                #print("train_set_x.shape[2]", train_set_x.shape[2])
 
                 #train_set_x = np.concatenate( ( train_set_x, rot_set_x ) )
                 train_set_x = np.append(train_set_x, np.atleast_3d(rot_set_x), axis=2)
