@@ -32,6 +32,10 @@
 
 from __future__ import print_function
 
+import sys
+sys.path.append('../')
+
+import prep_dataset 
 import os
 import sys
 import timeit
